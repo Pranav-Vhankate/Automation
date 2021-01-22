@@ -1,4 +1,4 @@
-# Automation
+# Automation using python
 Automating simple tasks like visiting 'YouTube', 'Amazon', 'Gmail', etc. using python
 
 Required softwares for automation:
