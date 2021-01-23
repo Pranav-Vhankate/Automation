@@ -12,43 +12,25 @@ print("Which web-application do you want to open?")
 app = input('Search: ')
 
 if app == 'amazon':
-	print("Processing...")
-	driver = webdriver.Chrome(PATH)
-	driver.get("https://www.amazon.in/")
 	import amznsearch.py as amazon
 
 if app == 'Amazon':
-	print("Processing...")
-	driver = webdriver.Chrome(PATH)
-	driver.get("https://www.amazon.in/")
 	import amznsearch.py as amazon
 
 if app == 'youtube':
-	print("Processing...")
-	driver = webdriver.Chrome(PATH)
-	driver.get("https://www.youtube.com")
 	import ytsearch.py as ytsearch
 
 if app == 'YouTube':
-	print("Processing...")
-	driver = webdriver.Chrome(PATH)
-	driver.get("https://www.youtube.com")
 	import ytsearch.py as ytsearch
 
 if app == 'instagram':
-	print("Processing...")
-	driver = webdriver.Chrome(PATH)
-	driver.get("https://www.instagram.com/")
+	import insta_search as ig
 
 if app == 'Instagram':
-	print("Processing...")
-	driver = webdriver.Chrome(PATH)
-	driver.get("https://www.instagram.com/")
+	import insta_search as ig
 
 if app == 'insta':
-	print("Processing...")
-	driver = webdriver.Chrome(PATH)
-	driver.get("https://www.instagram.com/")
+	import insta_search as ig
 
 if app == 'Insta':
 	print("Processing...")
@@ -56,19 +38,13 @@ if app == 'Insta':
 	driver.get("https://www.instagram.com/")
 
 if app == 'Facebook':
-	print("Processing...")
-	driver = webdriver.Chrome(PATH)
-	driver.get("https://www.facebook.com/")
+	import insta_search as ig
 
 if app == 'facebook':
-	print("Processing...")
-	driver = webdriver.Chrome(PATH)
-	driver.get("https://www.facebook.com/")
+	import fb_search as fb
 
 if app == 'FaceBook':
-	print("Processing...")
-	driver = webdriver.Chrome(PATH)
-	driver.get("https://www.facebook.com/")
+	import fb_search as fb
 
 if app == 'gmail':
 	print("Processing...")
