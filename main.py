@@ -24,21 +24,19 @@ if app == 'YouTube':
 	import ytsearch.py as ytsearch
 
 if app == 'instagram':
-	import insta_search as ig
+	import insta_search.py as ig
 
 if app == 'Instagram':
-	import insta_search as ig
+	import insta_search.py as ig
 
 if app == 'insta':
-	import insta_search as ig
+	import insta_search.py as ig
 
 if app == 'Insta':
-	print("Processing...")
-	driver = webdriver.Chrome(PATH)
-	driver.get("https://www.instagram.com/")
+	import insta_search.py as ig
 
 if app == 'Facebook':
-	import insta_search as ig
+	import fb_search as fb
 
 if app == 'facebook':
 	import fb_search as fb
@@ -47,31 +45,19 @@ if app == 'FaceBook':
 	import fb_search as fb
 
 if app == 'gmail':
-	print("Processing...")
-	driver = webdriver.Chrome(PATH)
-	driver.get("https://www.gmail.com")
+	import gmail_search.py as gmail
 
 if app == 'Gmail':
-	print("Processing...")
-	driver = webdriver.Chrome(PATH)
-	driver.get("https://www.gmail.com")
+	import gmail_search.py as gmail
 
 if app == 'GMail':
-	print("Processing...")
-	driver = webdriver.Chrome(PATH)
-	driver.get("https://www.gmail.com")
+	import gmail_search.py as gmail
 
 if app == 'Google mail':
-	print("Processing...")
-	driver = webdriver.Chrome(PATH)
-	driver.get("https://www.gmail.com")
+	import gmail_search.py as gmail
 
 if app == 'google mail':
-	print("Processing...")
-	driver = webdriver.Chrome(PATH)
-	driver.get("https://www.gmail.com")
+	import gmail_search.py as gmail
 
 if app == 'Google Mail':
-	print("Processing...")
-	driver = webdriver.Chrome(PATH)
-	driver.get("https://www.gmail.com")
+	import gmail_search.py as gmail
